@@ -17,7 +17,7 @@
     "build": "react-scripts build",
     "rm": "rm -rf docs",
     "mv": "mv build docs",
-    "git": "git push origin main",
+    "git": "git add . && git commit && git push origin main",
     "deploy": "npm run rm && npm run build && npm run mv && npm run git",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
